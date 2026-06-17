@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "C:/OSGeo4W/apps/qgis/python"
+    },
+    "python.analysis.extraPaths": [
+        "C:/OSGeo4W/apps/qgis/python"
+    ],
+}

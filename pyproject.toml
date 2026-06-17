@@ -1,0 +1,28 @@
+[project]
+name = "pkktools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.pyright]
+pythonPath = "C:/OSGeo4W/apps/Python312/python3.exe"
+extraPaths = [
+    "C:/OSGeo4W/apps/Python312/Lib/site-packages",
+    "C:/OSGeo4W/apps/qgis/python"
+]
+reportMissingTypeStubs = "none"
+
+[tool.ty.environment]
+python = "C:/OSGeo4W/apps/Python312/python3.exe"
+python-version = "3.12"
+extra-paths = [
+    "C:/OSGeo4W/apps/Python312/Lib/site-packages",
+    "C:/OSGeo4W/apps/qgis/python"
+]
+
+[tool.uv.workspace]
+members = [
+    "src/nspd_mock",
+]

@@ -1,0 +1,10 @@
+[general]
+name=PKKTools
+description=Tools for working with the Public Cadastre Map
+about=
+version=0.0.0
+qgisMinimumVersion=3.0
+author=
+email=
+repository=
+experimental=True

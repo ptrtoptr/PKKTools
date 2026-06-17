@@ -1,0 +1,3 @@
+PLUGIN_NAME = 'PKKTools'
+SETTINGS_PREFIX = 'pkktools'
+
